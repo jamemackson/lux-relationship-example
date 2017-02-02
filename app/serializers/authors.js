@@ -6,6 +6,9 @@ class AuthorsSerializer extends Serializer {
     'lastName',
     'nickname'
   ];
+  hasMany = [
+    'books'
+  ];
 }
 
 export default AuthorsSerializer;

@@ -5,6 +5,10 @@ class BooksSerializer extends Serializer {
     'name',
     'authorId'
   ];
+
+  hasOne = [
+    'author'
+  ];
 }
 
 export default BooksSerializer;
