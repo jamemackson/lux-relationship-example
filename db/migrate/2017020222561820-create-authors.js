@@ -4,6 +4,9 @@ export function up(schema) {
     table.string('first_name');
     table.string('last_name');
     table.string('nickname');
+    // writer_id will be what the book
+    // uses to relate to.
+    table.integer('writer_id');
     table.timestamps();
 
     table.index('created_at');

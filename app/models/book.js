@@ -6,7 +6,7 @@ class Book extends Model {
       inverse: 'books',
       // The line above lets Lux know that this relationship is accessible
       // on author instances via `author.books`.
-      foreignKey: 'author_id'
+      foreignKey: 'writer_id'
     }
   };
 }

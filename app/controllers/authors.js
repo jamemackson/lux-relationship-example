@@ -4,7 +4,8 @@ class AuthorsController extends Controller {
   params = [
     'firstName',
     'lastName',
-    'nickname'
+    'nickname',
+    'writerId'
   ];
 }
 

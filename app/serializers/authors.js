@@ -4,7 +4,8 @@ class AuthorsSerializer extends Serializer {
   attributes = [
     'firstName',
     'lastName',
-    'nickname'
+    'nickname',
+    'writerId'
   ];
   hasMany = [
     'books'
